@@ -4,4 +4,8 @@
 *   No me copien la wea bastardos culiaos, ya chao.
 *   Este trabajo se respalda al uso exclusivo de **Javier Almarza**.
 
+**Trabajando para usted**
+
+<img src="b.gif" widht="100" />
+
 ***
