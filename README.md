@@ -4,8 +4,15 @@
 *   No me copien la wea bastardos culiaos, ya chao.
 *   Este trabajo se respalda al uso exclusivo de **Javier Almarza**.
 
-**Trabajando para usted**
+## **Trabajando para usted**
 
-<img src="b.gif" widht="100" />
+<img src="b.gif" width="200" />
+
+***
+
+## **Diagrama de Herencia**
+Versión: 1.0.0
+
+<img src="D1.jpg" width="400" />
 
 ***
