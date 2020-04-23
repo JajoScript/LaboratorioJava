@@ -12,7 +12,8 @@
 
 ***
 ## **Areas De Trabajo.**
-    Las areas de trabajo son aquellas clases que heredan sus atributos y metodos a las clases hijas, al menos eso se espera.
+    Las areas de trabajo son aquellas clases que heredan sus atributos y metodos a las clases hijas. 
+    (al menos eso se espera)
 
 *   Ventas.
 *   Recursos humanos.
