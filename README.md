@@ -3,6 +3,7 @@
 ## Terminos de uso y condiciones.
 *   No me copien la wea bastardos culiaos, ya chao.
 *   Este trabajo se respalda al uso exclusivo de **Javier Almarza**.
+*   Quiero dejar en claro que **Javascript > JAVA** en todos los aspectos.
 
 ## **Trabajando para usted**
 
