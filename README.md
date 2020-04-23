@@ -11,12 +11,12 @@
 
 ***
 ## **Areas De Trabajo.**
-*   Ventas
-*   Recursos humanos
-*   Taller
-*   Finanzas
-*   Gerencia
-*   Bodega
+*   Ventas.
+*   Recursos humanos.
+*   Taller.
+*   Finanzas.
+*   Gerencia.
+*   Bodega.
 
 ## **Clase de Trabajadores.**
 *   Vendedor.
