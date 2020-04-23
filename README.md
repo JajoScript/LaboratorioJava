@@ -9,7 +9,23 @@
 <img src="b.gif" width="200" />
 
 ***
+## **Areas De Trabajo.**
+*   Ventas
+*   Recursos humanos
+*   Taller
+*   Finanzas
+*   Gerencia
+*   Bodega
 
+## **Clase de Trabajadores.**
+*   Vendedor.
+*   Administrador.
+*   Contador.
+*   Bodeguero.
+*   Mecanico.
+*   Gerente de planta.
+
+***
 ## **Diagrama de Herencia**
 
 
