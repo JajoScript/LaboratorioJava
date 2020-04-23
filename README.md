@@ -11,8 +11,10 @@
 ***
 
 ## **Diagrama de Herencia**
-Versión: 1.0.0
+
 
 <img src="D1.jpg" width="400" />
+
+Versión: 1.0.0
 
 ***
