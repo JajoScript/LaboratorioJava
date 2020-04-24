@@ -1,14 +1,21 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Personal;
 
-/**
- *
- * @author javie
- */
-public class Administrador {
+// Importación de paquetes.
+import Assets.*;
+import Areas.*;
+
+// Creación de la clase.
+public class Administrador extends RecursosHumanos{
+    // Atributos.
     
+    // Constructor.
+    public Administrador(){    
+    }
+
+    // Metodos.
+    public Personal crearPersonal(int edad, char sexo, String nombre, String profesion, String funcionDesempeñar, String areaAsociada) {
+        Personal nuevoPersonal = new Personal(edad, sexo, nombre, profesion, funcionDesempeñar, areaAsociada);
+        return nuevoPersonal;
+    }
+    // Getters & Setters.
 }
