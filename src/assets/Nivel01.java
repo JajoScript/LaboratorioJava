@@ -9,6 +9,6 @@ package assets;
  *
  * @author javie
  */
-public class NewClass {
+public class Nivel01 {
     
 }
