@@ -1,6 +1,6 @@
 package assets;
 
-public abstract class Personal {
+public class Personal {
     // Atributos.
     public String nombre;
     public String area;
