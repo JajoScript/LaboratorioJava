@@ -24,25 +24,25 @@ public class Administrador extends Personal{
    
     // Metodos.
     public void datosAdministrador(){
-        System.out.println("=====================");
+        System.out.println("==============");
         System.out.println("Datos del administrador: ");
         System.out.println("Nombre: "+ this.nombre);
-        System.out.println("=====================");
+        System.out.println("==============");
     };
     
     public Personal crearPersonal(String nombre, String area, char sexo, int edad){
-        System.out.println("=====================");
+        System.out.println("==============");
         Personal personal = new Personal(nombre,area,edad,sexo);
         
         System.out.println("Se Agrego alguien al personal.");
-        System.out.println("=====================");
+        System.out.println("==============");
         return personal;
     };
     
     public void eliminarPersonal(Personal despedido){
-        System.out.println("=====================");
+        System.out.println("==============");
         System.out.println("Se Despidio a: "+ despedido.nombre);
-        System.out.println("=====================");
+        System.out.println("==============");
     };
     
     // Getters & Setters

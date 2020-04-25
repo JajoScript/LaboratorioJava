@@ -16,12 +16,12 @@ public class Personal {
     
     // Metodos.
     public void informacionPersonal(){
-        System.out.println("=====================");
+        System.out.println("==============");
         System.out.println("Datos del personal: ");
         System.out.println("Nombre: "+ this.nombre);
         System.out.println("Edad: "+ this.edad);
         System.out.println("Area: "+ this.area);
-        System.out.println("=====================");
+        System.out.println("==============");
     }
     
     // Getters & Setters.
