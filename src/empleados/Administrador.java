@@ -12,8 +12,8 @@ public class Administrador extends Personal{
     
     
     // Constructor.
-    public Administrador(String nombre, int edad, char sexo){
-        super(nombre, "Administrador", edad, sexo);
+    public Administrador(String nombre, int edad, char sexo, String profesion, String funcion){
+        super(nombre, "Administrador", edad, sexo, profesion, funcion);
         
         this.nombre = nombre;
         this.area = "Administrador";
@@ -29,9 +29,9 @@ public class Administrador extends Personal{
         System.out.println("==============");
     };
     
-    public Personal crearPersonal(String nombre, String area, char sexo, int edad){
+    public Personal crearPersonal(String nombre, String area, char sexo, int edad, String profesion, String funcion){
         System.out.println("==============");
-        Personal personal = new Personal(nombre,area,edad,sexo);
+        Personal personal = new Personal(nombre,area,edad,sexo, profesion, funcion);
         
         System.out.println("Se Agrego alguien al personal.");
         System.out.println("==============");

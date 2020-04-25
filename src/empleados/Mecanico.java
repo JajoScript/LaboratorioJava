@@ -8,7 +8,7 @@ public class Mecanico extends Personal{
     
     // Constructor.
     public Mecanico(Personal a) {
-        super(a.nombre, a.area, a.edad, a.sexo);
+        super(a.nombre, a.area, a.edad, a.sexo, a.profesion, a.funcion);
     };
     
     // Metodos.

@@ -9,7 +9,7 @@ public class GerenteDePlanta extends Personal {
     
     // Constructor.
     public GerenteDePlanta(Personal a){
-       super(a.nombre, a.area, a.edad, a.sexo);
+       super(a.nombre, a.area, a.edad, a.sexo, a.profesion, a.funcion);
     };
     
     // Metodos.

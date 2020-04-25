@@ -8,7 +8,7 @@ public class Contador extends Personal{
     // Atributos.
     // Constructor.
     public Contador(Personal n){
-        super(n.nombre, n.area, n.edad, n.sexo);
+        super(n.nombre, n.area, n.edad, n.sexo, n.profesion, n.funcion);
     };
     
     // Metodos.

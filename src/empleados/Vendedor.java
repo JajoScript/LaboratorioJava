@@ -8,7 +8,7 @@ public class Vendedor extends Personal{
     
     // Constructor.
     public Vendedor(Personal a) {
-        super(a.nombre, a.area, a.edad, a.sexo);
+        super(a.nombre, a.area, a.edad, a.sexo, a.profesion, a.funcion);
     }
     
     // Metodos.

@@ -10,7 +10,7 @@ public class Bodeguero extends Personal{
     
     // Constructor.
     public Bodeguero(Personal n){
-        super(n.nombre, n.area, n.edad, n.sexo);
+        super(n.nombre, n.area, n.edad, n.sexo, n.profesion, n.funcion);
     };
     
     // Metodos
