@@ -40,7 +40,7 @@ public class Main {
         empleadoBodega.verStock(bodega01);
         
         // instanciando la orden de compra.
-        OrdenDeCompra ordenCompra1 = empleadoBodega.generarOrdenDeCompra("Tuercas", 5);
+        OrdenDeCompra ordenCompra1 = empleadoBodega.generarOrdenDeCompra("Tuercas", 5, 20);
         empleadoBodega.verOrdenDeCompra(ordenCompra1);
         
         // Estado de abastecimiento.
@@ -65,6 +65,15 @@ public class Main {
         // Aplicando metodos del mecanico.
         empleadoTaller.cambiarEstado(vehiculoDePruebas, "Terminado");
         empleadoTaller.estadoVehiculo(vehiculoDePruebas);
+        
+        // Instanciando al contador.
+        Personal empleado5 = empleador.crearPersonal("Sebastian Ramirez", "Contador", 'M', 20);
+        Contador empleadoFinanzas = new Contador(empleado5);
+        
+        Reporte reporte1 = empleadoFinanzas.GenerarReporte(ordenVenta1, vehiculoDePruebas, ordenCompra1);
+        empleadoFinanzas.verReporte(reporte1);
+        
+        // Instanciando al empleado de planta.
         
     };
 };

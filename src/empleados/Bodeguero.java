@@ -47,11 +47,12 @@ public class Bodeguero extends Personal{
         System.out.println("Se genero la orde de compra por: ");
         System.out.println("* Articulo: "+ o.articulo);
         System.out.println("* Cantidad: "+ o.cantidad);
+        System.out.println("* Total: "+ o.valor);
         System.out.println("==============");
     };
     
-    public OrdenDeCompra generarOrdenDeCompra(String a, int c){
-        OrdenDeCompra orden = new OrdenDeCompra(a, c);
+    public OrdenDeCompra generarOrdenDeCompra(String a, int c, int v){
+        OrdenDeCompra orden = new OrdenDeCompra(a, c, v);
         
         return orden;
     };

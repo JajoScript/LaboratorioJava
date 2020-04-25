@@ -1,5 +1,4 @@
 package areasDeTrabajo;
-
 // Importacion de las clases.
 
 // Creación de la clase bodega.
