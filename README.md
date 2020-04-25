@@ -43,16 +43,67 @@
 *   Vehiculo.
 
 ***
-## **Diagrama de Herencia**
+## **Diagrama de clases**
 
 <img src="./Images/D1.jpg" width="" />
 
 Versión: 1.0.0
 
-## **Diagrama de Objetos, Herencia, Metodos y Atributos**
+## **Diagrama de Objetos, Metodos y Atributos**
 
 <img src="./Images/D2.png" width="" />
 
 Versión: 1.1.0
 
+## Documentacion de clases.
+
+*   Vendedor:
+
+    Se Encarga del area de ventas, generando ordenes de ventas mediante la funcion:
+
+        *   GenerarOrdenDeVentas(); 
+        *   verOrdenDeVenta();
+
+*   Administrador.
+
+    Es el encargado de despedir y contratar al personal mediante las funciones:
+
+        *   CrearPersonal(); 
+        *   EliminarPersonal();
+
+*   Contador.
+
+    Se Encarga de generar reportes calculando las ganancias y gastos de la empresa con la funcion:
+
+        *   generarReporte();
+
+*   Bodeguero.
+
+    Es el encargado de consultar el Stock, generar ordenes de comprar de articulos y verificar el estado de abastecimiento, mediante las funciones: 
+
+        *   EstadoDeAbastecimiento(); 
+        *   generarOrdenDeCompra(); 
+        *   verOrdenDeCompra(); 
+        *   agregarStock(); 
+        *   quitarStock();
+        *   verRecursos();
+        *   verStock();
+
+*   Mecanico.
+
+    Es el encargado de administrar todo lo relacionado con la reparacion, mantencion y mejora de los vehiculos, mediante las funciones: 
+
+        *   CrearVehiculo();
+        *   CambiarEstadoDelVehiculo();
+        *   verEstadoDelVehiculo();   
+
+
+*   Gerente de planta.
+
+    Es el encargado de aprobar las desvinculaciones de los empleados junto con administrar las ordenes de venta y compra mediante las funciones:
+
+        *   verOrdenDeVenta();
+        *   verOrdenDeCompra();
+        *   confirmarDesvinculacion();
+    
 ***
