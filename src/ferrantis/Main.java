@@ -60,7 +60,9 @@ public class Main {
         
         // Instanciando un vehiculo.
         Vehiculo vehiculoDePruebas = empleadoTaller.CrearVehiculo("Incompleto", "Ferrari", 20);
+        Taller taller1 = new Taller(vehiculoDePruebas);
         empleadoTaller.estadoVehiculo(vehiculoDePruebas);
+        
         
         // Aplicando metodos del mecanico.
         empleadoTaller.cambiarEstado(vehiculoDePruebas, "Terminado");
@@ -73,7 +75,12 @@ public class Main {
         Reporte reporte1 = empleadoFinanzas.GenerarReporte(ordenVenta1, vehiculoDePruebas, ordenCompra1);
         empleadoFinanzas.verReporte(reporte1);
         
-        // Instanciando al empleado de planta.
+        // Instanciando al gerente de planta.
+        Personal empleado6 = empleador.crearPersonal("Alancita Ramos", "Gerencia", 'F', 30);
+        GerenteDePlanta empleadoGerencia = new GerenteDePlanta(empleado6);
         
+        // utilizando los metodos del gerente de planta
+        empleadoGerencia.verEstadoDeProduccion(taller1);
+        empleadoGerencia.confirmarDesvinculacion(1, empleado6, empleador);
     };
 };
