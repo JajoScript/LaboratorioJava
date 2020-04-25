@@ -24,6 +24,18 @@ public class Main {
         // Eliminando personal.
         empleador.eliminarPersonal(empleado2); // Chao Manuela U_U
         
+        // Asignando empleado a la bodega.
+        Bodeguero empleadoBodega = new Bodeguero(empleado1);
+        empleadoBodega.informacionPersonal();
+        
+        // Instanciamos la bodega.
+        Bodega bodega01 = new Bodega(20, 50);
+        
+        // Utilizando los metodos del empleado de bodega.
+        empleadoBodega.verStock(bodega01);
+        empleadoBodega.verRecursos(bodega01);
+        
+        
         
     };
 };

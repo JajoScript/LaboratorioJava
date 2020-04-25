@@ -4,14 +4,18 @@ package areasDeTrabajo;
 import assets.*;
 
 // Creación de la clase bodega.
-public abstract class Bodega {
+public class Bodega {
     // Atributos
-    int stock;
-    int recursos;
+    public int stock;
+    public int recursos;
     
     // Constructor
-    public Bodega(){};
+    public Bodega(int s, int r){
+        this.stock = s;
+        this.recursos = r;
+    };
     
     // Metodos
+    
     // Getters & Setters
 }

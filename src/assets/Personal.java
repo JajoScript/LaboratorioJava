@@ -4,7 +4,7 @@ public class Personal {
     // Atributos.
     public String nombre;
     public String area;
-    private char sexo;
+    public char sexo;
     
     public int edad;
     
