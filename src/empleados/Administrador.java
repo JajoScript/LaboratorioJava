@@ -1,7 +1,6 @@
 package empleados;
 
 // Importación de clases.
-import areasDeTrabajo.*;
 import assets.*;
 
 public class Administrador extends Personal{

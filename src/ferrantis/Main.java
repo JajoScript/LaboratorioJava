@@ -40,11 +40,31 @@ public class Main {
         empleadoBodega.verStock(bodega01);
         
         // instanciando la orden de compra.
-        OrdenDeCompra orden1 = empleadoBodega.generarOrdenDeCompra("Tuercas", 5);
-        empleadoBodega.verOrdenDeCompra(orden1);
+        OrdenDeCompra ordenCompra1 = empleadoBodega.generarOrdenDeCompra("Tuercas", 5);
+        empleadoBodega.verOrdenDeCompra(ordenCompra1);
         
         // Estado de abastecimiento.
         empleadoBodega.estadoDeAbastecimiento(bodega01);
+        
+        // Instanciamos al vendedor.
+        Personal empleado3 = empleador.crearPersonal("Vicente Rodriquez", "Ventas", 'M', 23);
+        Vendedor empleadoVentas = new Vendedor(empleado3);
+        empleadoVentas.informacionPersonal();
+        
+        // Metodos del vendedor.
+        OrdenDeVenta ordenVenta1 = empleadoVentas.generarOrdenDeVenta("Audi", 100, 100);
+        
+        // Instanciacion de un mecanico.
+        Personal empleado4 = empleador.crearPersonal("Mauricio Salas", "Mecanico", 'M', 29);
+        Mecanico empleadoTaller = new Mecanico(empleado4);
+        
+        // Instanciando un vehiculo.
+        Vehiculo vehiculoDePruebas = empleadoTaller.CrearVehiculo("Incompleto", "Ferrari", 20);
+        empleadoTaller.estadoVehiculo(vehiculoDePruebas);
+        
+        // Aplicando metodos del mecanico.
+        empleadoTaller.cambiarEstado(vehiculoDePruebas, "Terminado");
+        empleadoTaller.estadoVehiculo(vehiculoDePruebas);
         
     };
 };

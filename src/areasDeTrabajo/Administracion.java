@@ -1,7 +1,6 @@
 package areasDeTrabajo;
 
 // Importación de clases.
-import assets.*;
 
 // Creación de la clase administración.
 public abstract class Administracion{
