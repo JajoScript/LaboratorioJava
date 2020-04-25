@@ -7,9 +7,6 @@
 *   Sigo sin entender para que quieren un Makefile o un ScripShell.
 *   Esta es mi bitacora escrita en MarkDown, **saludos**.
 
-## **Trabajando para usted**
-<img src="./Images/b.gif" width="200" />
-
 ***
 ## **Areas De Trabajo.**
     Las areas de trabajo son aquellas clases que heredan sus atributos y metodos a las clases hijas. 
@@ -33,7 +30,7 @@
 *   Gerente de planta.
 
 ## **Assets, Objetos complejos para datos.**
-    Los Assets funcionan como intermediarios de datos más complejos entre clases.
+    Los Assets funcionan como intermediarios de datos más complejos entre, conteniendo metodos y clases.
 
 *   Personal.
 *   OrdenDeCompra.
@@ -106,4 +103,9 @@ Versión: 1.1.0
         *   verOrdenDeCompra();
         *   confirmarDesvinculacion();
     
+***
+
+## **Trabajando para usted**
+<img src="./Images/b.gif" width="200" />
+
 ***
